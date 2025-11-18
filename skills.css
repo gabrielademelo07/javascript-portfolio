@@ -1,0 +1,48 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills {
+  display: grid;
+   grid-template-areas: 
+   "tools personal"
+   "tools personal";
+}
+
+.skills .tools ul li {
+  list-style: none;
+  justify-content: space-between;
+}
+
+.html {
+  max-width: 50px;
+  margin: 0 .5rem;
+}
+
+.css {
+  max-width: 50px;
+   margin: 0 .5rem;
+}
+
+.javascript {
+  max-width: 50px;
+   margin: 0 .5rem;
+}
+
+.figma {
+  max-width: 50px;
+   margin: 0 .5rem;
+}
+
+.personal ul li {
+  margin-bottom: 1rem;
+}
+
+.skills .tools ul li img {
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-areas: 
+  "html css"
+  "javascript figma";
+}

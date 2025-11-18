@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    padding: .5rem;
+    margin: .5rem;
+    border: 1px solid #ffffff; 
+    border-radius: 1rem;
+}
+
+body {
+    background: radial-gradient(purple, #c47c8d);
+    color: #ffffff;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+
+    .main::before, .main::after {
+       width: 70vw;
+    }
+}
